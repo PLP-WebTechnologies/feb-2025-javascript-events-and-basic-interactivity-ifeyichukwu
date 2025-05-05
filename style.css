@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 35%;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    align-items: center;
+}
+
+#content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-height: 100px;
+    overflow: hidden;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-right: 20%;
+    margin-left: 20%;
+
+    /* Set transitions up. */
+    -webkit-transition: max-height 0.7s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: max-height 0.7s ease-in-out, padding 0.5s ease-in-out;
+    transition: max-height 0.7s;}
+
+#content.expanded{
+    max-height: 500px; /* Set to a large value to allow expansion */
+    padding: 20px; /* Adjust padding when expanded */
+    -webkit-transition: max-height 0.7s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: max-height 0.7s ease-in-out, padding 0.5s ease-in-out;
+    transition: max-height 0.7s ease-in-out, padding 0.5s ease-in-out;
+}
+
+
+
+
+div{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
